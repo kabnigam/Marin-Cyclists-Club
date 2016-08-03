@@ -53,8 +53,9 @@ body {
     font-family: 'Lato', sans-serif;
   }
 
+/* NAVBAR */
   .nav {
-    height: 60px;
+    height: 55px;
     background-color: azure;
     text-transform: uppercase;
     font-weight: 700;
@@ -62,9 +63,40 @@ body {
 
   .nav ul {
     display: flex;
+    justify-content: space-around;
   }
 
   .nav li {
-    margin: 0 auto;
+
     line-height: 55px;
+    padding: 0 40px;
   }
+
+  .nav li:hover {
+    cursor: pointer;
+    background-color: beige;
+  }
+
+
+
+/*PARALLAX*/
+
+.parallax {
+  padding: 10px 100px 100px 100px;
+  height: 100%;
+  width: 100%;
+}
+
+.plax-img {
+  border: 1px solid black;
+  height: 415px;
+  background-image: url('parallax.jpg');
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: 100% 100%;
+}
+
+.content {
+  padding-left: 300px;
+  padding-right: 300px;
+}
