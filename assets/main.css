@@ -52,3 +52,19 @@ body {
   body {
     font-family: 'Lato', sans-serif;
   }
+
+  .nav {
+    height: 60px;
+    background-color: azure;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+  .nav ul {
+    display: flex;
+  }
+
+  .nav li {
+    margin: 0 auto;
+    line-height: 55px;
+  }
