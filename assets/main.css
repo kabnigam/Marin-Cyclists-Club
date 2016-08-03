@@ -82,14 +82,12 @@ body {
 /*PARALLAX*/
 
 .parallax {
-  padding: 10px 100px 100px 100px;
   height: 100%;
   width: 100%;
 }
 
 .plax-img {
-  border: 1px solid black;
-  height: 415px;
+  height: 800px;
   background-image: url('parallax.jpg');
   background-attachment: fixed;
   background-position: center center;
