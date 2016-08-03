@@ -59,6 +59,7 @@ body {
     background-color: azure;
     text-transform: uppercase;
     font-weight: 700;
+    min-width: 1190px;
   }
 
   .nav ul {
