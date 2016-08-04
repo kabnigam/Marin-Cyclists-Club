@@ -124,7 +124,7 @@ body {
 }
 
 .plax-img {
-  height: 800px;
+  height: 94vh;
   background-image: url('parallax.jpg');
   background-attachment: fixed;
   background-position: 25% 25%;
