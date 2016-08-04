@@ -133,6 +133,12 @@ body {
   background-size: cover;
 }
 
+h1 {
+  text-align: center;
+  font-size: 64px;
+  color: white;
+  padding-top: 125px;
+}
 .content {
   padding-left: 300px;
   padding-right: 300px;
