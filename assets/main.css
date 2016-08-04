@@ -53,6 +53,8 @@ body {
 
   body {
     font-family: 'Lato', sans-serif;
+    background-image: url('allskymarin.jpeg');
+    background-size: cover;
   }
 
 /* NAVBAR */
@@ -123,10 +125,11 @@ body {
 .parallax {
   height: 100vh;
   width: 100%;
+  min-height: 600px;
 }
 
 .plax-img {
-  height: 800px;
+  height: 94vh;
   background-image: url('parallax.jpg');
   background-attachment: fixed;
   background-position: 25% 25%;
@@ -209,5 +212,8 @@ h1 {
 
 /* CONTENT */
 .content {
-  background: white;
+  /*height: 2000px;*/
+  padding-bottom: 300px;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  text-align: center;
 }
