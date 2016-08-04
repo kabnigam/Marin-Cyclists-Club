@@ -131,6 +131,9 @@ body {
   background-attachment: fixed;
   background-position: 25% 25%;
   background-size: cover;
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 h1 {
@@ -154,9 +157,9 @@ h1 {
 
 			padding: 3em;
 			text-align: center;
-      position: absolute;
+      /*position: absolute;
       top: 125px;
-      left: 37%
+      left: 37%*/
 		}
 
 			 .inner header {
