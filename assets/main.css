@@ -54,9 +54,15 @@ body {
   }
 
 /* NAVBAR */
+
+  .logo {
+    width: 20px;
+    height: auto;
+  }
+
   .nav {
     height: 55px;
-    background-color: azure;
+    background-color: white;
     text-transform: uppercase;
     font-weight: 700;
     min-width: 1190px;
@@ -71,12 +77,42 @@ body {
 
     line-height: 55px;
     padding: 0 40px;
+
   }
 
   .nav li:hover {
     cursor: pointer;
-    background-color: beige;
+    background-color: aliceblue;
   }
+
+  .nav li:hover ul.sub_tab {
+    display: flex;
+  }
+
+  ul.sub_tab {
+    display: none;
+    position: absolute;
+    background-color: white;
+    font-size: 14px;
+    width: 98vw;
+    left: 1%;
+    background-color: aliceblue;
+  }
+
+  ul.sub_tab li {
+    line-height: 30px;
+    padding: 15px 15px 10px 10px;
+    font-weight: 400;
+  }
+
+  ul.sub_tab li:hover {
+    background-color: inherit;
+    font-weight: 700
+  }
+
+
+
+
 
 
 
