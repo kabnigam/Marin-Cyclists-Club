@@ -121,7 +121,7 @@ body {
 /*PARALLAX*/
 
 .parallax {
-  height: 100%;
+  height: 100vh;
   width: 100%;
 }
 
@@ -166,6 +166,8 @@ h1 {
 				margin: 0 0 2em 0;
 				padding: 3px 0 3px 0;
         font-family: 'Norican', cursive;
+        /*font-family: 'Pacifico', cursive;*/
+        /*font-weight: lighter;*/
 			}
 
 				 .inner header h2 {
@@ -191,3 +193,8 @@ h1 {
 					font-weight: 400;
 					text-decoration: none;
 				}
+
+/* CONTENT */
+.content {
+  background: white;
+}
