@@ -49,13 +49,27 @@ body {
 		box-sizing: border-box;
 	}
 
-  /* INITIAL */
+/* INITIAL */
 
-  body {
-    font-family: 'Lato', sans-serif;
-    background-image: url('allskymarin.jpeg');
-    background-size: cover;
-  }
+body {
+  font-family: 'Lato', sans-serif;
+  background-image: url('allskymarin.jpeg');
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  font-size: 64px;
+  color: white;
+  padding-top: 125px;
+}
+
+h3 {
+  font-size: 1.35em;
+  line-height: 1.75em;
+  border-bottom: solid 2px #fff;
+  letter-spacing: 0.225em;
+}
 
 /* NAVBAR */
 
@@ -134,17 +148,7 @@ body {
   background-attachment: fixed;
   background-position: 25% 25%;
   background-size: cover;
-}
-
-h1 {
-  text-align: center;
-  font-size: 64px;
-  color: white;
-  padding-top: 125px;
-}
-.content {
-  padding-left: 300px;
-  padding-right: 300px;
+  -moz-background-size: cover;
 }
 
 
@@ -203,4 +207,7 @@ h1 {
   padding-bottom: 300px;
   font-family: "Open Sans", Helvetica, sans-serif;
   text-align: center;
+  padding-left: 300px;
+  padding-right: 300px;
+  color: white;
 }
