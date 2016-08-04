@@ -53,6 +53,8 @@ body {
 
   body {
     font-family: 'Lato', sans-serif;
+    background-image: url('allskymarin.jpeg');
+    background-size: cover;
   }
 
 /* NAVBAR */
@@ -196,5 +198,6 @@ h1 {
 
 /* CONTENT */
 .content {
-  background: white;
+  /*height: 2000px;*/
+  padding-bottom: 300px;
 }
