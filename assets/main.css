@@ -125,6 +125,7 @@ body {
 .parallax {
   height: 100vh;
   width: 100%;
+  min-height: 600px;
 }
 
 .plax-img {
@@ -200,4 +201,6 @@ h1 {
 .content {
   /*height: 2000px;*/
   padding-bottom: 300px;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  text-align: center;
 }
