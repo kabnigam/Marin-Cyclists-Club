@@ -201,13 +201,20 @@ h3 {
 					text-decoration: none;
 				}
 
+
+/*SECTION*/
+.section {
+  display: flex;
+}
+
 /* CONTENT */
 .content {
   /*height: 2000px;*/
+  display: flex;
+  flex-direction: column;
+  position: flex-center;
   padding-bottom: 300px;
-  font-family: "Open Sans", Helvetica, sans-serif;
+  max-width: 500px;
   text-align: center;
-  padding-left: 300px;
-  padding-right: 300px;
   color: white;
 }
