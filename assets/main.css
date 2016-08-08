@@ -41,6 +41,10 @@ body {
   -webkit-text-size-adjust: none;
 }
 
+p {
+  font-size: 18px;
+}
+
 /* BOX MODEL */
 
 	*, *:before, *:after {
@@ -65,7 +69,7 @@ h1 {
 }
 
 h3 {
-  font-size: 1.35em;
+  font-size: 3.35em;
   line-height: 1.75em;
   border-bottom: solid 2px #fff;
   letter-spacing: 0.225em;
@@ -207,12 +211,12 @@ h3 {
 					text-decoration: none;
 				}
 
-<<<<<<< HEAD
 
 /*SECTION*/
 .section {
   display: flex;
-=======
+}
+
 .down_arrow {
   background-image: url("./arrow.png");
   background-size: 50px 45px;
@@ -227,21 +231,65 @@ h3 {
   margin: 5px auto;
   margin-top: 0px;
   color: white;
->>>>>>> 1a70f56140e8d9fa76e77afb232bbd894adb6bb1
+
 }
 
 /* CONTENT */
 .content {
-  /*height: 2000px;*/
-  display: flex;
-  flex-direction: column;
-  position: flex-center;
+  height: 1600px;
+  /*display: flex;
+  flex-direction: column;*/
+  /*position: flex-center;*/
   padding-bottom: 300px;
-<<<<<<< HEAD
-  max-width: 500px;
-=======
 
->>>>>>> 1a70f56140e8d9fa76e77afb232bbd894adb6bb1
-  text-align: center;
+  /*max-width: 500px;*/
+
+  /*text-align: center;*/
   color: white;
+  padding: 0 10% 300px 10%;
+}
+
+.content p {
+  padding-top: 2%;
+}
+
+.pane {
+  font-size: 15px;
+height: 300px;
+width: 364px;
+float: left;
+display: inline-block;
+background: rgba(7, 8, 8, 0.3);
+padding: 30px;
+line-height: 1.5em;
+text-align: center;
+margin-top: 5%;
+margin-bottom: 5%;
+
+}
+ .content-icon {
+   height: 150px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+ }
+
+.three {
+  padding-bottom: 25px;
+}
+
+.content h4 {
+  padding-top: 35%;
+  font-family: 'Playfair Display', serif;
+  font-size: 38px;
+  text-align: center;
+  padding-bottom: 40px;
+  letter-spacing: 1px;
+    line-height: 1.2em;
+    margin-bottom: 5%;
+}
+
+.vid {
+  margin: 0 auto;
+  width: 650px;
 }
