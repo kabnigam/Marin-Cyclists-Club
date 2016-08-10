@@ -2,7 +2,7 @@
 
 /* RESET */
 
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, a, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -242,7 +242,7 @@ h3 {
   /*position: flex-center;*/
   padding-bottom: 300px;
 
-  /*max-width: 500px;*/
+  min-width: 1360px;
 
   /*text-align: center;*/
   color: white;
@@ -292,4 +292,34 @@ margin-bottom: 5%;
 .vid {
   margin: 0 auto;
   width: 650px;
+}
+
+/* APPAREL */
+
+.apparel {
+  /*height: 750px;*/
+  display: block;
+  float: none;
+  margin: 0 auto;
+  width: 100%;
+  background: none;
+}
+
+.desc {
+  margin: 0 auto;
+  width: 400px;
+}
+
+.desc h3 {
+  width: 400px;
+  margin-bottom: 20px;
+  font-size: 1.2em;
+}
+
+.desc h4 {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2em;
+  width: 400px;
+  padding: 0px;
+  margin-bottom: 10px;
 }
