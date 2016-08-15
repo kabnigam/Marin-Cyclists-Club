@@ -57,7 +57,7 @@ p {
 
 body {
   font-family: 'Lato', sans-serif;
-  background-image: url('allskymarin.jpeg');
+  /*background-image: url('allskymarin.jpeg');*/
   background-size: cover;
 }
 
@@ -88,6 +88,7 @@ h3 {
     text-transform: uppercase;
     font-weight: 700;
     min-width: 1190px;
+    margin-bottom: 0;
   }
 
   .nav ul {
@@ -300,6 +301,14 @@ margin-bottom: 5%;
 .vid {
   margin: 0 auto;
   width: 650px;
+}
+
+#grad {
+    background: #64dcfb; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#64dcfb, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#64dcfb, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#64dcfb, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#64dcfb, white); /* Standard syntax */
 }
 
 /* APPAREL */
