@@ -231,7 +231,10 @@ h3 {
   margin: 5px auto;
   margin-top: 0px;
   color: white;
+<<<<<<< HEAD
+=======
 
+>>>>>>> bbd32f0027eb1ad29e7b5100b79d3e903a72eacf
 }
 
 /* CONTENT */
@@ -241,10 +244,15 @@ h3 {
   flex-direction: column;*/
   /*position: flex-center;*/
   padding-bottom: 300px;
+<<<<<<< HEAD
+  max-width: 500px;
+  text-align: center;
+=======
 
   min-width: 1360px;
 
   /*text-align: center;*/
+>>>>>>> bbd32f0027eb1ad29e7b5100b79d3e903a72eacf
   color: white;
   padding: 0 10% 300px 10%;
 }
