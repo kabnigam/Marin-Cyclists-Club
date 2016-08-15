@@ -207,12 +207,12 @@ h3 {
 					text-decoration: none;
 				}
 
-<<<<<<< HEAD
 
 /*SECTION*/
 .section {
   display: flex;
-=======
+}
+
 .down_arrow {
   background-image: url("./arrow.png");
   background-size: 50px 45px;
@@ -227,7 +227,6 @@ h3 {
   margin: 5px auto;
   margin-top: 0px;
   color: white;
->>>>>>> 1a70f56140e8d9fa76e77afb232bbd894adb6bb1
 }
 
 /* CONTENT */
@@ -237,11 +236,7 @@ h3 {
   flex-direction: column;
   position: flex-center;
   padding-bottom: 300px;
-<<<<<<< HEAD
   max-width: 500px;
-=======
-
->>>>>>> 1a70f56140e8d9fa76e77afb232bbd894adb6bb1
   text-align: center;
   color: white;
 }
