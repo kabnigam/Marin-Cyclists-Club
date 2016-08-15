@@ -2,7 +2,7 @@
 
 /* RESET */
 
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, a, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -41,6 +41,10 @@ body {
   -webkit-text-size-adjust: none;
 }
 
+p {
+  font-size: 18px;
+}
+
 /* BOX MODEL */
 
 	*, *:before, *:after {
@@ -65,7 +69,7 @@ h1 {
 }
 
 h3 {
-  font-size: 1.35em;
+  font-size: 3.35em;
   line-height: 1.75em;
   border-bottom: solid 2px #fff;
   letter-spacing: 0.225em;
@@ -227,16 +231,103 @@ h3 {
   margin: 5px auto;
   margin-top: 0px;
   color: white;
+<<<<<<< HEAD
+=======
+
+>>>>>>> bbd32f0027eb1ad29e7b5100b79d3e903a72eacf
 }
 
 /* CONTENT */
 .content {
-  /*height: 2000px;*/
-  display: flex;
-  flex-direction: column;
-  position: flex-center;
+  height: 1600px;
+  /*display: flex;
+  flex-direction: column;*/
+  /*position: flex-center;*/
   padding-bottom: 300px;
+<<<<<<< HEAD
   max-width: 500px;
   text-align: center;
+=======
+
+  min-width: 1360px;
+
+  /*text-align: center;*/
+>>>>>>> bbd32f0027eb1ad29e7b5100b79d3e903a72eacf
   color: white;
+  padding: 0 10% 300px 10%;
+}
+
+.content p {
+  padding-top: 2%;
+}
+
+.pane {
+  font-size: 15px;
+height: 300px;
+width: 364px;
+float: left;
+display: inline-block;
+background: rgba(7, 8, 8, 0.3);
+padding: 30px;
+line-height: 1.5em;
+text-align: center;
+margin-top: 5%;
+margin-bottom: 5%;
+
+}
+ .content-icon {
+   height: 150px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+ }
+
+.three {
+  padding-bottom: 25px;
+}
+
+.content h4 {
+  padding-top: 35%;
+  font-family: 'Playfair Display', serif;
+  font-size: 38px;
+  text-align: center;
+  padding-bottom: 40px;
+  letter-spacing: 1px;
+    line-height: 1.2em;
+    margin-bottom: 5%;
+}
+
+.vid {
+  margin: 0 auto;
+  width: 650px;
+}
+
+/* APPAREL */
+
+.apparel {
+  /*height: 750px;*/
+  display: block;
+  float: none;
+  margin: 0 auto;
+  width: 100%;
+  background: none;
+}
+
+.desc {
+  margin: 0 auto;
+  width: 400px;
+}
+
+.desc h3 {
+  width: 400px;
+  margin-bottom: 20px;
+  font-size: 1.2em;
+}
+
+.desc h4 {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2em;
+  width: 400px;
+  padding: 0px;
+  margin-bottom: 10px;
 }
