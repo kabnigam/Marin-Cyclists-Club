@@ -221,30 +221,30 @@ h4 {
 }
 
 .sponsor2 {
-  background-image: url('sponsors/cbclogo.jpg');
-}
-
-.sponsor3 {
   background-image: url('sponsors/limelight.jpeg');
 }
 
-.sponsor4 {
+.sponsor3 {
   background-image: url('sponsors/coldwell-banker.png');
 }
 
+.sponsor4 {
+  background-image: url('sponsors/cbclogo.jpg');
+}
+
 .sponsor5 {
-  background-image: url('sponsors/velofix.jpg');
+  background-image: url('sponsors/natures-bakery-logo.jpg');
 }
 
 .sponsor6 {
-  background-image: url('sponsors/lagunitas-brewing-logo.png');
+  background-image: url('sponsors/velofix.jpg');
 }
 
 .sponsor7 {
-  background-image: url('sponsors/western-espresso-logo.jpg');
-  background-size: 100% 100%;
+  background-image: url('sponsors/lagunitas-brewing-logo.png');
 }
 
 .sponsor8 {
-  background-image: url('sponsors/natures-bakery-logo.jpg');
+  background-image: url('sponsors/western-espresso-logo.jpg');
+  background-size: 100% 100%;
 }
