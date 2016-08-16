@@ -168,6 +168,40 @@ h4 {
   color: white;
 }
 
+/*MARIN CENTURY JERSEY*/
+
+.small-padding {
+  padding: 5px 0px;
+}
+
+.small-margin {
+  margin: 5px 0px;
+}
+
+.mclogo {
+  background-image: url('MCC_logo_hr16.png');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.mcjersey1 {
+  background-image: url('jerseys/mcjfront.jpeg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.mcjersey2 {
+  background-image: url('jerseys/mcjback.jpeg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
 /* CAROUSEL */
 .slide1, .slide2, .slide3, .slide4, .slide5, .slide6, .slide7, .slide8, .slide9 ,.slide10 {
   height: 500px;
