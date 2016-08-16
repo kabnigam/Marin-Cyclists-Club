@@ -1,0 +1,241 @@
+@import url("http://fonts.googleapis.com/css?family=Lato:300,400,900");
+
+/* RESET */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, a, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  -webkit-text-size-adjust: none;
+}
+
+p {
+  font-size: 18px;
+}
+
+/* BOX MODEL */
+
+	*, *:before, *:after {
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+/* INITIAL */
+
+body {
+  font-family: 'Lato', sans-serif;
+  /*background-image: url('allskymarin.jpeg');*/
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  font-size: 64px;
+  color: white;
+  padding-top: 125px;
+}
+
+h3 {
+  font-size: 3.35em;
+  line-height: 1.75em;
+  border-bottom: solid 2px #fff;
+  letter-spacing: 0.225em;
+}
+
+h4 {
+  font-size: 2.35em;
+  line-height: 1.75em;
+  letter-spacing: 0em;
+}
+
+/*PARALLAX*/
+
+.parallax {
+  height: 100vh;
+  width: 100%;
+  min-height: 600px;
+}
+
+.plax-img {
+  height: 94vh;
+  background-image: url('parallax.jpg');
+  background-attachment: fixed;
+  background-position: 25% 25%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  -moz-background-size: cover;
+}
+
+/* MAIN TITLE */
+
+.inner {
+
+			/*background: rgba(52, 27, 43, 0.8);*/
+			color: #fff;
+			display: inline-block;
+
+			padding: 3em;
+      padding-bottom: 1em;
+			text-align: center;
+      /*position: absolute;
+      top: 125px;
+      left: 37%*/
+		}
+
+			 .inner header {
+				display: inline-block;
+				border-bottom: solid 2px;
+				border-top: solid 2px;
+				margin: 0 0 2em 0;
+				padding: 3px 0 3px 0;
+        font-family: 'Norican', cursive;
+        /*font-family: 'Pacifico', cursive;*/
+        /*font-weight: lighter;*/
+			}
+
+				 .inner header h2 {
+					border-bottom: solid 2px;
+					border-top: solid 2px;
+					font-size: 6.5em;
+					font-weight: 900;
+
+					margin: 0;
+					padding-left: 0.05em;
+					position: relative;
+          padding: 20px 0;
+				}
+
+			 .inner p {
+				letter-spacing: 0.1em;
+				margin: 0;
+				text-transform: uppercase;
+			}
+
+				 .inner p a {
+					color: inherit;
+					font-weight: 400;
+					text-decoration: none;
+				}
+
+.down_arrow {
+  background-image: url("./arrow.png");
+  background-size: 50px 45px;
+  background-repeat: no-repeat;
+
+  height: 45px;
+  margin: 0 auto;
+  width: 50px;
+}
+
+.learn_more {
+  margin: 5px auto;
+  margin-top: 0px;
+  color: white;
+}
+
+/* Carousel Styling */
+.slide1{
+  background-image: url('BBBScolor.jpeg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.slide2{
+  background-image: url('Bulldogs.gif');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.slide3{
+  background-image: url('FSLBP.jpeg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.slide4{
+  background-image: url('FSLBP.jpeg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.slide5{
+  background-image: url('FSLBP.jpeg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.slide6{
+  background-image: url('FSLBP.jpeg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.slide7{
+  background-image: url('FSLBP.jpeg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.slide8{
+  background-image: url('FSLBP.jpeg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.slide9{
+  background-image: url('FSLBP.jpeg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.slide10{
+  background-image: url('FSLBP.jpeg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
