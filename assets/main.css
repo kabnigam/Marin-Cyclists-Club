@@ -17,6 +17,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 body {
   line-height: 1;
+  min-width: 1365px;
 }
 
 ol, ul {
@@ -114,6 +115,8 @@ h4 {
     cursor: pointer;
     background-color: aliceblue;
   }
+
+
 
   .nav li:hover ul.sub_tab {
     display: flex;
@@ -295,11 +298,29 @@ margin-bottom: 5%;
   padding-top: 35%;
   font-family: 'Playfair Display', serif;
   font-size: 38px;
-  text-align: left;
+  text-align: center;
   padding-bottom: 40px;
   letter-spacing: 1px;
     line-height: 1.2em;
-    margin-bottom: 5%;
+
+}
+
+.prof {
+  height: 200px;
+  width: auto;
+}
+
+h5 {
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+h6 {
+  font-size: 18px;
+}
+
+.board-label {
+  font-weight: 900;
 }
 
 .vid {
@@ -319,6 +340,8 @@ margin-bottom: 5%;
   background: rgba(7, 8, 8, 0.2);
 }
 
+
+
 /* APPAREL */
 
 .apparel {
@@ -331,7 +354,7 @@ margin-bottom: 5%;
 }
 
 .desc {
-  margin: 0 auto;
+  position: relative;
   width: 400px;
 }
 
@@ -349,6 +372,37 @@ margin-bottom: 5%;
   margin-bottom: 10px;
 }
 
+.row {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+
+.first {
+  text-align: center;
+}
+
+.first h2 {
+  font-size: 32px;
+  margin: 0 10% 10% 10%
+}
+
+.placeholder {
+  height: 400px;
+  width: 350px;
+}
+
+
+
+.desc .hidden {
+  visibility: hidden;
+  height: 410px;
+    width: 400px;
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    background: rgba(0,0,0,.3);
+}
 /* MEMBERSHIP */
 .showing {
   display: flex;
@@ -415,5 +469,11 @@ a:-webkit-any-link {
 .no-sub:hover .showing {
   display: none;
 }
+
+.showing li:hover {
+  font-weight: 900;
+}
+
+
 
 /*MISC*/
