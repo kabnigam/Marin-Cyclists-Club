@@ -140,9 +140,9 @@ h4 {
     font-weight: 700
   }
 
-
-
-
+  .showing {
+    display: flex !important;
+  }
 
 
 
