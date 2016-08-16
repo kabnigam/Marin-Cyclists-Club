@@ -75,6 +75,13 @@ h3 {
   letter-spacing: 0.225em;
 }
 
+h4 {
+  font-size: 2.35em;
+  line-height: 1.75em;
+
+  letter-spacing: 0em;
+}
+
 /* NAVBAR */
 
   .logo {
@@ -287,11 +294,11 @@ margin-bottom: 5%;
   padding-bottom: 25px;
 }
 
-.content h4 {
+.content .sig-event {
   padding-top: 35%;
   font-family: 'Playfair Display', serif;
   font-size: 38px;
-  text-align: center;
+  text-align: left;
   padding-bottom: 40px;
   letter-spacing: 1px;
     line-height: 1.2em;
@@ -343,4 +350,17 @@ margin-bottom: 5%;
   width: 400px;
   padding: 0px;
   margin-bottom: 10px;
+}
+
+/* MEMBERSHIP */
+.showing {
+  display: flex !important;
+}
+
+
+
+p {
+    font-size: 22px;
+    text-align: left;
+    line-height: 1.5;
 }
