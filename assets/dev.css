@@ -169,73 +169,40 @@ h4 {
 }
 
 /* Carousel Styling */
-.slide1{
-  background-image: url('BBBScolor.jpeg');
+.slide1, .slide2, .slide3, .slide4, .slide5, .slide6, .slide7, .slide8, .slide9 ,.slide10 {
   height: 500px;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
+}
+
+.slide1{
+  background-image: url('proceeds/NorthBayLogo_trans.jpg');
 }
 .slide2{
-  background-image: url('Bulldogs.gif');
-  height: 500px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-image: url('proceeds/Tamalpa-Logo-4cp.jpg');
 }
 .slide3{
-  background-image: url('FSLBP.jpeg');
-  height: 500px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-image: url('proceeds/wmss-logo-trans.png');
 }
 .slide4{
-  background-image: url('FSLBP.jpeg');
-  height: 500px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-image: url('proceeds/KEEN.png');
 }
 .slide5{
-  background-image: url('FSLBP.jpeg');
-  height: 500px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-image: url('proceeds/MCBC-trans.jpg');
 }
 .slide6{
-  background-image: url('FSLBP.jpeg');
-  height: 500px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-image: url('proceeds/Norcal_logo_72_wht.jpg');
 }
 .slide7{
-  background-image: url('FSLBP.jpeg');
-  height: 500px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-image: url('proceeds/Bulldogs.gif');
 }
 .slide8{
-  background-image: url('FSLBP.jpeg');
-  height: 500px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-image: url('proceeds/TFK_Marin_LOGO_Shadow.png');
 }
 .slide9{
-  background-image: url('FSLBP.jpeg');
-  height: 500px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-image: url('proceeds/FSLBP.jpeg');
 }
 .slide10{
-  background-image: url('FSLBP.jpeg');
-  height: 500px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-image: url('proceeds/aidslifecycle-logo-blue-text.png');
 }
