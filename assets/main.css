@@ -133,9 +133,9 @@ h3 {
     font-weight: 700
   }
 
-
-
-
+  .showing {
+    display: flex !important;
+  }
 
 
 
