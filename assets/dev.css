@@ -168,7 +168,49 @@ h4 {
   color: white;
 }
 
-/* Carousel Styling */
+/*MARIN CENTURY JERSEY*/
+
+.small-padding {
+  padding: 5px 0px;
+}
+
+.normal-padding-top {
+  padding: 15px 0px;
+}
+
+.normal-padding {
+  padding: 15px;
+}
+
+.small-margin {
+  margin: 5px 0px;
+}
+
+.mclogo {
+  background-image: url('MCC_logo_hr16.png');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.mcjersey1 {
+  background-image: url('jerseys/mcjfront.jpeg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.mcjersey2 {
+  background-image: url('jerseys/mcjback.jpeg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+/* CAROUSEL */
 .slide1, .slide2, .slide3, .slide4, .slide5, .slide6, .slide7, .slide8, .slide9 ,.slide10 {
   height: 500px;
   background-repeat: no-repeat;
@@ -176,33 +218,75 @@ h4 {
   background-size: contain;
 }
 
-.slide1{
+.slide1 {
   background-image: url('proceeds/NorthBayLogo_trans.jpg');
 }
-.slide2{
+.slide2 {
   background-image: url('proceeds/Tamalpa-Logo-4cp.jpg');
 }
-.slide3{
+.slide3 {
   background-image: url('proceeds/wmss-logo-trans.png');
 }
-.slide4{
+.slide4 {
   background-image: url('proceeds/KEEN.png');
 }
-.slide5{
+.slide5 {
   background-image: url('proceeds/MCBC-trans.jpg');
 }
-.slide6{
+.slide6 {
   background-image: url('proceeds/Norcal_logo_72_wht.jpg');
 }
-.slide7{
+.slide7 {
   background-image: url('proceeds/Bulldogs.gif');
 }
-.slide8{
+.slide8 {
   background-image: url('proceeds/TFK_Marin_LOGO_Shadow.png');
 }
-.slide9{
+.slide9 {
   background-image: url('proceeds/FSLBP.jpeg');
 }
-.slide10{
+.slide10 {
   background-image: url('proceeds/aidslifecycle-logo-blue-text.png');
+}
+
+/*SPONORS*/
+
+.sponsor1, .sponsor2, .sponsor3, .sponsor4, .sponsor5, .sponsor6, .sponsor7, .sponsor8 {
+  height: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.sponsor1 {
+  background-image: url('sponsors/pelo.jpg');
+}
+
+.sponsor2 {
+  background-image: url('sponsors/limelight.jpeg');
+}
+
+.sponsor3 {
+  background-image: url('sponsors/coldwell-banker.png');
+}
+
+.sponsor4 {
+  background-image: url('sponsors/cbclogo.jpg');
+}
+
+.sponsor5 {
+  background-image: url('sponsors/natures-bakery-logo.jpg');
+}
+
+.sponsor6 {
+  background-image: url('sponsors/velofix.jpg');
+}
+
+.sponsor7 {
+  background-image: url('sponsors/lagunitas-brewing-logo.png');
+}
+
+.sponsor8 {
+  background-image: url('sponsors/western-espresso-logo.jpg');
+  background-size: 100% 100%;
 }
