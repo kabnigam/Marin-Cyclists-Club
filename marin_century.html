@@ -16,7 +16,7 @@
 
   <body>
     <nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
-      <div class="container">
+      <div class="container normal-padding">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse"
                   data-target="#navbar-collapse">
@@ -51,7 +51,7 @@
       </div>
     </div>
 
-    <div class="container">
+    <div class="container normal-padding">
       <!-- <div class="mclogo"> -->
       <img src="assets/MCC_logo_hr16.png" class="img-responsive" alt="" />
       </div>
@@ -70,7 +70,7 @@
       </div>
     </div>
 
-    <div class="container">
+    <div class="container normal-padding">
       <div class="row well">
         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
             <li class="small-padding">Ordering closes on Monday August 15</li>
@@ -79,17 +79,57 @@
             <li class="small-padding">We do not have any stock</li>
             <li class="small-padding">No exchanges or refunds so please order carefully</li>
             <li class="small-padding">Jerseys are <strong>CLUB CUT</strong> only</li>
+            <br>
+            <br>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
             <p class="small-padding">
               You can try on a jersey for size at any Performance Bikeshop or REI store.
             </p>
+            <br><br>
             <p class="small-padding">
               EXPECTED DELIVERY IS 6 TO 8 WEEKS AFTER OUR ORDER IS PLACED.
             </p>
+            <br><br>
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-            <a href="#" class="btn btn-primary btn-lg center-block small-margin">Order Here</a>
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
+            <a href="#" class="btn btn-primary btn-lg small-margin">Order Here</a>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container normal-padding">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h4>Your Pictures Have Arrived!</h4>
+          <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">Learn More</button>
+          <div class="modal fade" id="myModal">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h4>2016 Marin Century Ride Photos</h4>
+                </div>
+                <div class="modal-body">
+                  <h5 class="small-padding">To easily locate photos:</h5>
+                  <li class="small-padding text-left">Click on Open Gallery</li>
+                  <li class="small-padding text-left">Type Helmet# into search field or Search by Time & Location</li>
+                  <li class="small-padding text-left">Don't forget to check out the discount packages</li>
+                  <p class="normal-padding">
+                    For assistance, contact sales@captivatingphotos.net<br>
+                    or call 209 406-1845
+                  </p>
+                  <p class="small-padding">
+                    <a href="https://captivatingsportsphotos.shootproof.com/16Marin100"
+                       class="btn btn-primary btn-lg" target="_blank">Go to Photo Site</a>
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -164,7 +204,7 @@
       </div>
     </div>
 
-    <div class="container">
+    <div class="container normal-padding">
       <h3 class="text-center">Sponsors</h3>
       <div class="row">
         <div class="sponsor1 col-lg-3 col-md-3 col-sm-6 col-xs-12" >
@@ -186,8 +226,28 @@
       </div>
     </div>
 
-    </div>
+
+
+    <!-- <div class="modal hide fade" id="myModal">
+      <div class="modal-header">
+        <a class="close" data-dismiss="modal">×</a>
+        <h3>Modal header</h3>
+      </div>
+      <div class="modal-body">
+        <p>One fine body…</p>
+      </div>
+      <div class="modal-footer">
+        <a href="#" class="btn">Close</a>
+        <a href="#" class="btn btn-primary">Save changes</a>
+      </div>
+    </div> -->
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- <script type="text/javascript">
+      $(document).ready(function(){
+          $('#myModal').modal('show');
+      });
+    </script> -->
   </body>
 </html>
