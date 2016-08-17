@@ -90,7 +90,7 @@ h4 {
 }
 
 .plax-img {
-  height: 98vh;
+  height: 100vh;
   background-image: url('parallax.jpg');
   background-attachment: fixed;
   background-position: 25% 25%;
