@@ -90,7 +90,7 @@ h4 {
 }
 
 .plax-img {
-  height: 94vh;
+  height: 100vh;
   background-image: url('parallax.jpg');
   background-attachment: fixed;
   background-position: 25% 25%;
@@ -172,10 +172,6 @@ h4 {
 
 .small-padding {
   padding: 5px 0px;
-}
-
-.normal-padding-top {
-  padding: 15px 0px;
 }
 
 .normal-padding {
