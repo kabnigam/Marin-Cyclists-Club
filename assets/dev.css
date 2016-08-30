@@ -2,7 +2,7 @@
 
 /* RESET */
 
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, a, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, u, i, center, dl, dt, dd, a, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -19,7 +19,7 @@ body {
   line-height: 1;
 }
 
-ol, ul {
+ul {
   list-style: none;
 }
 
@@ -35,6 +35,8 @@ blockquote:before, blockquote:after, q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+  margin: 0 auto;
+  border: 1px solid black;
 }
 
 body {
@@ -73,6 +75,7 @@ h3 {
   line-height: 1.75em;
   border-bottom: solid 2px #fff;
   letter-spacing: 0.225em;
+  margin-top: 5%
 }
 
 h4 {
@@ -172,6 +175,7 @@ h4 {
 
 .small-padding {
   padding: 5px 0px;
+  text-align: center;
 }
 
 .normal-padding-top {
@@ -195,7 +199,7 @@ h4 {
 }
 
 .mcjersey1 {
-  background-image: url('jerseys/mcjfront.jpeg');
+  background-image: url('jerseys/mcjfront.png');
   height: 500px;
   background-repeat: no-repeat;
   background-position: center;
@@ -203,7 +207,7 @@ h4 {
 }
 
 .mcjersey2 {
-  background-image: url('jerseys/mcjback.jpeg');
+  background-image: url('jerseys/mcjback.png');
   height: 500px;
   background-repeat: no-repeat;
   background-position: center;
@@ -243,7 +247,7 @@ h4 {
   background-image: url('proceeds/TFK_Marin_LOGO_Shadow.png');
 }
 .slide9 {
-  background-image: url('proceeds/FSLBP.jpeg');
+  background-image: url('proceeds/FSLBP.png');
 }
 .slide10 {
   background-image: url('proceeds/aidslifecycle-logo-blue-text.png');
@@ -289,4 +293,29 @@ h4 {
 .sponsor8 {
   background-image: url('sponsors/western-espresso-logo.jpg');
   background-size: 100% 100%;
+}
+
+#proceedsCarousel {
+  width: 80%;
+  margin: 40px auto;
+  margin-bottom: 0;
+}
+
+.carousel-indicators li {
+  border: 1px solid black;
+}
+
+.carousel-indicators .active {
+  background-color: black;
+}
+
+th {
+  padding: 10px;
+  font-weight: bold;
+}
+
+td.col-title {
+    text-align: LEFT;
+    padding: 5px 5px 5px 10px;
+    font-weight: bold;
 }

@@ -20,7 +20,7 @@ body {
   min-width: 1365px;
 }
 
-ol, ul {
+ul {
   list-style: none;
 }
 
@@ -200,7 +200,7 @@ h4 {
 					border-top: solid 2px;
 					font-size: 6.5em;
 					font-weight: 900;
-
+          text-shadow: 2px 2px #940101;
 					margin: 0;
 					padding-left: 0.05em;
 					position: relative;
@@ -315,6 +315,7 @@ h5 {
 
 h6 {
   font-size: 18px;
+  margin: 10px;
 }
 
 .board-label {
@@ -332,6 +333,13 @@ h6 {
     background: -o-linear-gradient(#64dcfb, white); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(#64dcfb, white); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#64dcfb, white); /* Standard syntax */
+}
+#grad-rev {
+    background: #64dcfb; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(white, #64dcfb); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(white, #64dcfb); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(white, #64dcfb); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(white, #64dcfb); /* Standard syntax */
 }
 
 #middle-pane {
@@ -374,7 +382,7 @@ h6 {
   margin-bottom: 10px;
 }
 
-.row {
+.rowCloth {
   display: flex;
   justify-content: space-around;
   margin-bottom: 40px;
@@ -466,6 +474,7 @@ a:-webkit-any-link {
     color: inherit;
     text-decoration: none;
     cursor: auto;
+    margin: 0 auto;
 }
 
 .no-sub:hover .showing {
@@ -476,6 +485,83 @@ a:-webkit-any-link {
   font-weight: 900;
 }
 
+#showing {
+  display: flex;
+}
 
+
+/*CONTACT*/
+.contact {
+  margin-bottom: 100px;
+}
 
 /*MISC*/
+
+.sign-up {
+  color: white;
+  cursor: pointer;
+}
+
+
+/*CALENDAR*/
+
+.calendar_div {
+  display: flex;
+}
+
+.calendar_div ul {
+  width: 20%;
+  padding: 2%;
+  margin: 2%;
+}
+
+.calendar_div li {
+  margin: 20px 0;
+  list-style: disc;
+}
+
+/*MDCD*/
+
+.jerseys {
+  text-align: center
+}
+
+h3.non-title {
+  border-bottom: none;
+  margin-top: 2%;
+}
+
+a.btn.btn-info.btn-lrg {
+  margin: 5%;
+  font-size: 20px;
+}
+
+p.rides-note {
+  text-align: center;
+}
+
+div.event-info h4 {
+  text-align: left;
+  padding-top: 2%
+}
+
+div.event-info ul {
+    list-style: disc;
+    text-align: left;
+    padding-left: 5%;
+    font-size: 18px;
+}
+
+div.event-info li {
+  padding-bottom: 10px;
+}
+
+div.event-info p {
+  padding: 20px;
+}
+
+div.event-info li {
+  font-size: 18px;
+  text-align: left;
+  margin-left: 60px;
+}
