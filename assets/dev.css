@@ -45,6 +45,7 @@ body {
 
 p {
   font-size: 18px;
+  line-height: 1.2em;
 }
 
 /* BOX MODEL */
@@ -308,9 +309,17 @@ h4 {
 th {
   padding: 10px;
   font-weight: bold;
+  text-align: center;
+  border: 1px solid black;
 }
 
-td.col-title {
+td {
+  border: 1px solid black;
+}
+
+
+
+.col-title {
     text-align: LEFT;
     padding: 5px 5px 5px 10px;
     font-weight: bold;
