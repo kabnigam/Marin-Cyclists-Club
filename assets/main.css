@@ -1,4 +1,6 @@
 @import url("http://fonts.googleapis.com/css?family=Lato:300,400,900");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400i");
+@import url("https://fonts.googleapis.com/css?family=Norican");
 
 /* RESET */
 
@@ -239,30 +241,18 @@ h4 {
   margin: 5px auto;
   margin-top: 0px;
   color: white;
-<<<<<<< HEAD
-=======
-
->>>>>>> bbd32f0027eb1ad29e7b5100b79d3e903a72eacf
 }
 
 /* CONTENT */
 .content {
 
-  /*display: flex;
-  flex-direction: column;*/
-  /*position: flex-center;*/
 
-<<<<<<< HEAD
-  max-width: 500px;
   text-align: center;
-=======
+
 
   min-width: 1360px;
 
-  /*text-align: center;*/
->>>>>>> bbd32f0027eb1ad29e7b5100b79d3e903a72eacf
-  color: white;
-  padding: 0 10% 50px 10%;
+  padding: 60px 10% 50px 10%;
 }
 
 .content p {
@@ -564,4 +554,50 @@ div.event-info li {
   font-size: 18px;
   text-align: left;
   margin-left: 60px;
+}
+
+table.rides.routes {
+    width: 80%;
+}
+
+.routes th {
+  border: 1px solid black;
+}
+.routes td {
+  border: 1px solid black;
+}
+
+#hyperlink {
+  color: blue;
+}
+
+.why-ride {
+  padding: 20px;
+  margin-bottom: 60px;
+}
+
+.why-ride h3 {
+  margin-bottom: 30px;
+}
+
+.why-ride img {
+  width: 350px;
+  display: inline-block
+}
+
+.why-ride p {
+  display: inline-block;
+  width: 60%;
+  margin-left: 40px;
+  vertical-align: top;
+  padding-top: 0;
+}
+
+.why-ride span {
+  text-shadow: 1px 1px red;
+  font-size: 36px;
+}
+
+.why-ride-section {
+  flex-direction: column;
 }

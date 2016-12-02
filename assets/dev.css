@@ -45,6 +45,7 @@ body {
 
 p {
   font-size: 18px;
+  line-height: 1.2em;
 }
 
 /* BOX MODEL */
@@ -93,7 +94,7 @@ h4 {
 }
 
 .plax-img {
-  height: 94vh;
+  height: 100vh;
   background-image: url('parallax.jpg');
   background-attachment: fixed;
   background-position: 25% 25%;
@@ -176,10 +177,6 @@ h4 {
 .small-padding {
   padding: 5px 0px;
   text-align: center;
-}
-
-.normal-padding-top {
-  padding: 15px 0px;
 }
 
 .normal-padding {
@@ -312,9 +309,17 @@ h4 {
 th {
   padding: 10px;
   font-weight: bold;
+  text-align: center;
+  border: 1px solid black;
 }
 
-td.col-title {
+td {
+  border: 1px solid black;
+}
+
+
+
+.col-title {
     text-align: LEFT;
     padding: 5px 5px 5px 10px;
     font-weight: bold;
